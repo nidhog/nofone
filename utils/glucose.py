@@ -2,7 +2,7 @@ import pandas as pd
 from .prep import weekday_map, shift_time, is_weekend_map
 
 # Default path to cgm data CSV file
-LOCAL_PATH_DEFAULT = 'data/cgm_latest.csv'
+LOCAL_PATH_DEFAULT = 'data-o/glucose.csv'
 
 # CSV fields
 LBL_GLUCOSE = 'Historic Glucose mmol/L'
