@@ -1,4 +1,4 @@
-Timestamp,glucose,ketones,hct,hb,time,hours since last meal,tags,comments,glucose (mmol/L),gki
+Collection Timestamp,glucose,ketones,hct,hb,time,hours since last meal,tags,comments,glucose (mmol/L),gki
 4/25/2020 10:56:21,89,0.6,44,13.9,4/25/2020 10:45:00,15,"ramadan,morning",Second day of ramadan,4.940053286,8.233422143
 4/26/2020 17:39:13,82,0.9,40,13.6,4/25/2020 17:30:00,22,"ramadan,evening",exercised around 16:00,4.551509769,5.057233077
 4/29/2020 11:07:48,97,0.4,43,14.6,4/28/2020 9:46:00,13,"exercise,ramadan","Did a couple of dips, pushups, trampoline about 40min before",5.38410302,13.46025755
