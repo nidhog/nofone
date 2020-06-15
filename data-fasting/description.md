@@ -2,17 +2,20 @@
 This data was captured from `2020-03-01` to `2020-06-01`. During that time, I fasted for 30 days.
 * **The period of the fast** from `2020-04-24` to `2020-05-23`
 * *The period before the fast* from `2020-03-01` to `2020-04-23`
-* *The period after the fast* from `2020-05-24` to `2020-06-01`
+* *The period after the fast* from `2020-05-24` to `2020-06-01` (includes fasting days and non-fasting days)
 
-**IMPORTANT NOTE**: the period after the fast still contains fasting days and non-fasting days, whereas the period before the fast is mostly non-fasting days.
+To find fasting days in the data: every fasting day has the tag `fast` in the `trck.csv` file. Every fasting day also corresponds to a value `YES` for the field `fast` in the `hbts.csv` file.
 
 ## The 30 day fast protocol
 This fast can be described as a Time Restricted Eating/drinling with an eating/drinking window of 2 hours a day. 
 
 This means:
+* for 30 days from `2020-04-24` to `2020-05-23`. 
+* around 22 hours without food or water, each day. 
 * around 2 hours of eating/drinking water. The eating window is right after sunset, the exact meal times can be found in `meals.csv`.
-* around 22 hours without food or water, each day. Practically, this is between 21 to 23 hours a day. The `trck.csv` file contains the time of the first and last meals as described below.
-* for 30 days in the period specified above. 
+
+Practically, for every fasting day is between 21 to 23 hours a day. The `trck.csv` file contains the time of the first and last meals as described below.
+
 
 ## Meals `meals.csv`
 I logged every meal, with its weight. For some meals, I added an approximation of the calories/macronutrients. I used the Lifesum app to make these approximations.
@@ -45,9 +48,9 @@ It contains the following fields:
 
 ## Continuous glucose `glucose.csv`
 The FreeStyle Libre sensor gives this data, I was wearing different sensors during this period:
-* 12 Mar 2020 – 25 Mar 2020
-* 26 Mar 2020 – 8 Apr 2020
-* 23 Apr 2020 – 6 May 2020
+* 17 Mar 2020 – 31 Mar 2020
+* 24 Apr 2020 –  8 May 2020
+*  8 May 2020 –  22 May 2020
 * 7 May 2020 – 20 May 2020
 * 21 May 2020 – 3 Jun 2020
 
