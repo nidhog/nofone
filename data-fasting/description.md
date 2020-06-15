@@ -18,7 +18,7 @@ Practically, for every fasting day is between 21 to 23 hours a day. The `trck.cs
 
 This fast was during the month of ramadan which is why the `ramadan` tag in `trck.csv` points to this period.
 
-## Meals `meals.csv` [link here](./meals.csv)
+## Meals `meals.csv` [link to data here](./meals.csv)
 I logged every meal, with its weight. For some meals, I added an approximation of the calories/macronutrients. I used the Lifesum app to make these approximations.
 
 It contains the following fields:
@@ -34,7 +34,7 @@ It contains the following fields:
 * `estimated fat percentage` percentage of fat estimated using the Lifesum app. Only collected in a few days.
 * `estimated protein percentage` percentage of protein estimated using the Lifesum app. Only collected in a few days.
 
-## Exercise `exercise.csv`
+## Exercise `exercise.csv` [link to data here](./exercise.csv)
 I logged every workout session (even if it is as short as 1minute).
 
 It contains the following fields:
@@ -47,7 +47,7 @@ It contains the following fields:
 * `comments` comments on the exercise, if any.
 * `subjective level` perceived difficulty/level. From 1 (easy) to 5 (hard). This is a subjective measurement.
 
-## Continuous glucose `glucose.csv`
+## Continuous glucose `glucose.csv` [link to data here](./glucose.csv)
 The FreeStyle Libre sensor gives this data as a csv file. I was wearing a different sensor for every one of these periods:
 * 17 Mar 2020 – 31 Mar 2020
 * 24 Apr 2020 –  8 May 2020
@@ -62,7 +62,7 @@ The important fields in the here are:
 * `Notes` notes I enter manually, if any.
 
 There are other fields in the data that are not relevant in this case.
-## Blood glucose and ketones `gk.csv`
+## Blood glucose and ketones `gk.csv` [link to data here](./gk.csv)
 I collected these measures of sugar and fats in the blood (glucose and ketones) using the KetoMojo device (by finger pricking).
 
 It contains the following fields:
@@ -77,7 +77,7 @@ It contains the following fields:
 * `hours since last meal` hours from the time I stopped eating to the time I took the measurement.
 * `comments` comments on the measurement, if any.
 * `tags` tags as a comma separated value string, contains tags such as `morning` for morning measurements, `exercise` if I worked out close to the measurement.
-## Sleep `sleep.csv`
+## Sleep `sleep.csv` [link to data here](./sleep.csv)
 Sleep measurements as measured by the Oura ring device.
 
 Each row gives a measurement for one night of sleep. The index for the day before that night of sleep is given as:
@@ -98,11 +98,11 @@ This data also includes heart-rate related measurements such as:
 
 There are a lot of other fields included such as the start of the bedtime and the end of the bedtime. [The Oura ring's official documentation explains these fields in detail here: https://cloud.ouraring.com/docs/sleep](https://cloud.ouraring.com/docs/sleep)
 
-## Readiness `readiness.csv`
+## Readiness `readiness.csv` [link to data here](./readiness.csv)
 Oura defines Readiness as: how ready you are for the day. It uses multiple measurements to compute scores for readiness.
 [The Oura ring's official documentation explains these fields in detail here: https://cloud.ouraring.com/docs/readiness](https://cloud.ouraring.com/docs/readiness)
 
-## Weight, eating window and subjective measurements `trck.csv`
+## Weight, eating window and subjective measurements `trck.csv` [link to data here](./trck.csv)
 This data includes weight, eating window and some subjective measurements (such as sleep and productivity).
 
 * `DAY` the day that these measurements are referring to in the format: `MM/DD/YYYY`.
@@ -116,7 +116,7 @@ This data includes weight, eating window and some subjective measurements (such 
 * `energy level subjective` subjective energy level measurement from 1 (no energy) to 10 (lots of energy). This measurement skips the value 7.
 * `TAGS` tags as comma separated values. These can include `fast` for fasting days and `CGM` for days where I was wearing a continuous glucose monitor etc.
 
-## Supplements `supps.csv`
+## Supplements `supps.csv` [link to data here](./supps.csv)
 These fields specify whether I took certain supplements. For some of these supplements, the field contains the exact amount I took.
 
 * `DAY` the day that these measurements are referring to in the format: `MM/DD/YYYY`.
@@ -133,7 +133,7 @@ These fields specify whether I took certain supplements. For some of these suppl
 * `mela. (+Mg. PassFlor)` melatonin supplement including some extracts from chamomile and passion flower. Value is in mg. No value means 0.
 * `mag` magnesium citramate from Thorne Research. 
 * `magBisglyc` magnesium bisglycinate from Thorne Research. Value is in grams. No value means 0.
-## Habits `hbts.csv`
+## Habits `hbts.csv` [link to data here](./hbts.csv)
 This includes tracking of certain habits. Such as time restricted eating, sunlight exposure, sitting etc.
 
 * `DAY` the day that these measurements are referring to in the format: `MM/DD/YYYY`.
