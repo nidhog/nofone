@@ -6,7 +6,7 @@ This data was captured from `2020-03-01` to `2020-06-01`. During that time, I fa
 
 To find fasting days in the data: every fasting day has the tag `fast` in the `trck.csv` file. Every fasting day also corresponds to a value `YES` for the field `fast` in the `hbts.csv` file.
 
-## The 30 day fast protocol
+## What type of fast it was
 This fast can be described as a Time Restricted Eating/drinling with an eating/drinking window of 2 hours a day. 
 
 This means:
@@ -16,6 +16,7 @@ This means:
 
 Practically, for every fasting day is between 21 to 23 hours a day. The `trck.csv` file contains the time of the first and last meals as described below.
 
+This fast was during the month of ramadan which is why the `ramadan` tag in `trck.csv` points to this period.
 
 ## Meals `meals.csv`
 I logged every meal, with its weight. For some meals, I added an approximation of the calories/macronutrients. I used the Lifesum app to make these approximations.
@@ -47,12 +48,11 @@ It contains the following fields:
 * `subjective level` perceived difficulty/level. From 1 (easy) to 5 (hard). This is a subjective measurement.
 
 ## Continuous glucose `glucose.csv`
-The FreeStyle Libre sensor gives this data, I was wearing different sensors during this period:
+The FreeStyle Libre sensor gives this data as a csv file. I was wearing a different sensor for every one of these periods:
 * 17 Mar 2020 – 31 Mar 2020
 * 24 Apr 2020 –  8 May 2020
-*  8 May 2020 –  22 May 2020
-* 7 May 2020 – 20 May 2020
-* 21 May 2020 – 3 Jun 2020
+*  8 May 2020 –  19 May 2020
+* 19 May 2020 – 2 Jun 2020
 
 The important fields in the here are:
 * `Device`: same in all the dataset `FreeStyle LibreLink`
